@@ -1,0 +1,21 @@
+{
+  "name": "satya-lay-lab1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/LaySatya/satya-lay-lab1.git",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --exit",
+    "lint": "eslint . --ext .js"
+  },
+  "devDependencies": {
+    "chai": "^6.2.0",
+    "eslint": "8",
+    "mocha": "^11.7.5",
+    "supertest": "^7.1.4"
+  }
+}
